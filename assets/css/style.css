@@ -432,7 +432,7 @@ hr {
 
 .red-btn2 {
   text-transform: uppercase;
-  font-family: "Teko",sans-serif;
+  font-family: "Baloo Thambi 2",sans-serif;
   padding: 30px 51px;
   font-size: 16px;
 }
@@ -2201,7 +2201,7 @@ hr {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
-  font-family: "Teko",sans-serif;
+  font-family: "Baloo Thambi 2",sans-serif;
 }
 
 @media (max-width: 575px) {
@@ -2999,7 +2999,7 @@ hr {
   color: #fff;
   font-size: 18px;
   text-transform: uppercase;
-  font-family: "Teko",sans-serif;
+  font-family: "Baloo Thambi 2",sans-serif;
   font-weight: 400;
   letter-spacing: 0.03em;
   display: block;
@@ -3563,7 +3563,7 @@ hr {
   color: #ff5f13;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Teko",sans-serif;
+  font-family: "Baloo Thambi 2",sans-serif;
   display: block;
   position: relative;
   margin-left: 30px;
@@ -3586,7 +3586,7 @@ hr {
   color: #0e132a;
   font-weight: 700;
   font-size: 25px;
-  font-family: "Teko",sans-serif;
+  font-family: "Baloo Thambi 2",sans-serif;
 }
 
 .single-team:hover .team-img img {
@@ -3600,6 +3600,7 @@ hr {
 .latest-news-area .single-news .news-img {
   position: relative;
   overflow: hidden;
+    max-height: 150px;
 }
 
 .latest-news-area .single-news .news-img img {
@@ -4283,7 +4284,7 @@ hr {
   font-size: 35px;
   margin-bottom: 29px;
   font-weight: 500;
-  font-family: "Teko",sans-serif;
+  font-family: "Baloo Thambi 2",sans-serif;
 }
 
 .footer-area .footer-tittle ul li {
@@ -4443,7 +4444,7 @@ hr {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
-  font-family: "Teko",sans-serif;
+  font-family: "Baloo Thambi 2",sans-serif;
 }
 
 .latest-blog-area .area-heading {
