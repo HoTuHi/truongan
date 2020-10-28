@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,900|Baloo+Thambi+2:300,400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,900|Raleway:300,400,500,600,700&display=swap");
 
 .white-bg {
   background: #ffffff;
@@ -21,7 +21,7 @@
 }
 
 .theme-bg {
-  background: #ff5f13;
+  background: #ff002f;
 }
 
 .brand-bg {
@@ -41,30 +41,30 @@
 }
 
 .theme-color {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .boxed-btn {
   background: #fff;
-  color: #ff5f13 !important;
+  color: #ff002f !important;
   display: inline-block;
   padding: 18px 44px;
   font-family: "Barlow",sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #ff5f13;
+  border: 1px solid #ff002f;
   letter-spacing: 3px;
   text-align: center;
-  color: #ff5f13;
+  color: #ff002f;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .boxed-btn:hover {
-  background: #ff5f13;
+  background: #ff002f;
   color: #fff !important;
-  border: 1px solid #ff5f13;
+  border: 1px solid #ff002f;
 }
 
 .boxed-btn:focus {
@@ -379,7 +379,7 @@ hr {
 }
 
 .btn {
-  background: #ff5f13;
+  background: #ff002f;
   -moz-user-select: none;
   text-transform: uppercase;
   color: #fff;
@@ -409,7 +409,8 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #e25311;
+  background: #f28a7f;
+
   z-index: 1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -432,7 +433,7 @@ hr {
 
 .red-btn2 {
   text-transform: uppercase;
-  font-family: "Baloo Thambi 2",sans-serif;
+  font-family: "Raleway",sans-serif;
   padding: 30px 51px;
   font-size: 16px;
 }
@@ -468,7 +469,7 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #ff5f13;
+  background: #ff002f;
   z-index: 1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -513,7 +514,7 @@ hr {
 }
 
 #scrollUp {
-  background: #ff5f13;
+  background: #ff002f;
   height: 50px;
   width: 50px;
   right: 31px;
@@ -1936,7 +1937,7 @@ hr {
   position: relative;
   border-style: solid;
   border-width: 1px;
-  border-top-color: #ff5f13;
+  border-top-color: #ff002f;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -2196,12 +2197,12 @@ hr {
 }
 
 .section-tittle .front-text h2 {
-  color: #0e132a;
+  color: #00235b;
   font-size: 70px;
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
-  font-family: "Baloo Thambi 2",sans-serif;
+  font-family: "Raleway",sans-serif;
 }
 
 @media (max-width: 575px) {
@@ -2219,10 +2220,10 @@ hr {
 }
 
 .section-tittle span.back-text {
-  font-size: 140px;
+  font-size: 110px;
   font-weight: 800;
   text-transform: uppercase;
-  -webkit-text-stroke: 1px #f6f7f8;
+   -webkit-text-stroke: 2px rgba(255,0,47,.4);
   -webkit-text-fill-color: transparent;
   margin: 0;
   line-height: 1;
@@ -2252,9 +2253,6 @@ hr {
   }
 }
 
-.section-tittle.section-tittle2 .front-text h2 {
-  font-size: 100px;
-}
 
 @media (max-width: 575px) {
   .section-tittle.section-tittle2 .front-text h2 {
@@ -2269,6 +2267,7 @@ hr {
 }
 
 .section-tittle.section-tittle2 span.back-text {
+   -webkit-text-stroke: 2px rgba(255,0,47,.4);
   transform: translateY(-123%);
 }
 
@@ -2364,7 +2363,7 @@ hr {
 }
 
 .section-tittle.section-tittle4 span.back-text {
-  -webkit-text-stroke: 1px rgba(255,255,255,0.2);
+  -webkit-text-stroke: 2px rgba(255,255,255,.2);
   transform: translateY(-113%);
 }
 
@@ -2408,7 +2407,7 @@ hr {
 }
 
 .section-tittle.section-tittle6 span.back-text {
-  -webkit-text-stroke: 1px rgba(255,255,255,0.2);
+  -webkit-text-stroke: 2px rgba(255,255,255,.2);
   transform: translateY(-113%);
 }
 
@@ -2425,7 +2424,9 @@ hr {
     transform: translateY(-137%);
   }
 }
-
+.testimonial-top-cap p {
+  font-size :25px !important;
+}
 .small-section-tittle h4 {
   color: #0e132a;
   font-size: 18px;
@@ -2455,7 +2456,7 @@ hr {
 }
 
 .theme-bg {
-  background: #ff5f13;
+  background: #ff002f;
 }
 
 .brand-bg {
@@ -2475,7 +2476,7 @@ hr {
 }
 
 .theme-color {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .header-area .header-top {
@@ -2547,7 +2548,7 @@ hr {
 }
 
 .header-area {
-  background: rgba(25,26,51,0.7);
+  background: rgb(0 36 91 / 75%);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2599,7 +2600,7 @@ hr {
 }
 
 .header-area .header-top .header-info-right .header-social li a:hover {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .main-header {
@@ -2640,7 +2641,7 @@ hr {
 }
 
 .main-header .main-menu ul li:hover>a {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .main-header .main-menu ul ul.submenu {
@@ -2653,7 +2654,7 @@ hr {
   opacity: 0;
   box-shadow: 0 0 10px 3px rgba(0,0,0,0.05);
   padding: 17px 0;
-  border-top: 5px solid #ff5f13;
+  border-top: 5px solid #ff002f;
   -webkit-transition: all .3s ease-out 0s;
   -moz-transition: all .3s ease-out 0s;
   -ms-transition: all .3s ease-out 0s;
@@ -2673,7 +2674,7 @@ hr {
 }
 
 .main-header .main-menu ul ul.submenu>li>a:hover {
-  color: #ff5f13;
+  color: #ff002f;
   background: none;
 }
 
@@ -2729,7 +2730,7 @@ hr {
 }
 
 .header-sticky.sticky-bar.sticky {
-  background: #191a33;
+  background: #00235b
 }
 
 .header-sticky ul li a {
@@ -2747,7 +2748,7 @@ hr {
 }
 
 .slicknav_menu .slicknav_icon-bar {
-  background-color: #ff5f13 !important;
+  background-color: #ff002f !important;
 }
 
 .slicknav_nav {
@@ -2760,7 +2761,7 @@ hr {
 
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .slicknav_menu {
@@ -2868,13 +2869,13 @@ hr {
 }
 
 .slider-area .hero__caption h1 {
-  font-size: 140px;
+  font-size: 110px;
   font-weight: 900;
   color: #ffffff;
   font-family: 'Barlow', sans-serif;
   line-height: 1;
   text-transform: uppercase;
-  color: #ff5f13;
+  color: #ff002f;
   margin: 0;
   padding: 0;
 }
@@ -2938,7 +2939,7 @@ hr {
 }
 
 .slider-area .hero__caption .stock-text h2 {
-  font-size: 140px;
+  font-size: 110px;
   font-weight: 800;
   margin: 0;
   line-height: 1;
@@ -2979,7 +2980,7 @@ hr {
 }
 
 .slider-area .hero__caption .stock-text h2:nth-child(2) {
-  color: #ff5f13;
+  color: #ff002f;
   -webkit-animation: animate 4s ease-in-out infinite;
   animation: animate 4s ease-in-out infinite;
 }
@@ -2999,7 +3000,7 @@ hr {
   color: #fff;
   font-size: 18px;
   text-transform: uppercase;
-  font-family: "Baloo Thambi 2",sans-serif;
+  font-family: "Raleway",sans-serif;
   font-weight: 400;
   letter-spacing: 0.03em;
   display: block;
@@ -3014,7 +3015,7 @@ hr {
   left: -30px;
   top: 50%;
   transform: translateY(-50%);
-  background: #ff5f13;
+  background: #ff002f;
 }
 
 @media (max-width: 575px) {
@@ -3095,7 +3096,7 @@ hr {
   content: "";
   width: 75px;
   height: 1px;
-  background: #ff5f13;
+  background: #ff002f;
   left: 0;
   top: 52%;
   transform: translateY(-50%);
@@ -3108,13 +3109,13 @@ hr {
 }
 
 .slider-area .hero-cap .breadcrumb a {
-  color: #ff5f13;
+  color: #ff002f;
   font-size: 17px;
   text-transform: uppercase;
 }
 
 .slider-area .hero-cap .breadcrumb-item+.breadcrumb-item::before {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 @media (max-width: 575px) {
@@ -3187,7 +3188,7 @@ hr {
 }
 
 .services-area1 .single-service-cap .service-cap h4 a:hover {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .services-area1 .single-service-cap .service-icon img {
@@ -3200,7 +3201,7 @@ hr {
 
 .single-service-cap:hover .more-btn i {
   color: #fff;
-  background: #ff5f13;
+  background: #ff002f;
 }
 
 .more-btn {
@@ -3234,7 +3235,7 @@ hr {
 
 .more-btn:hover i {
   color: #fff;
-  background: #ff5f13;
+  background: #ff002f;
 }
 
 .support-company-area .support-wrapper {
@@ -3396,7 +3397,7 @@ hr {
 .support-company-area .support-wrapper .right-content .support-img-cap {
   position: absolute;
   bottom: 0px;
-  background: #1f2b7b;
+  background: #055498;
   padding: 59px 28px;
   border-radius: 5px;
 }
@@ -3560,10 +3561,10 @@ hr {
 }
 
 .single-team .team-caption span {
-  color: #ff5f13;
+  color: #ff002f;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Baloo Thambi 2",sans-serif;
+  font-family: "Raleway",sans-serif;
   display: block;
   position: relative;
   margin-left: 30px;
@@ -3579,14 +3580,14 @@ hr {
   left: -30px;
   top: 50%;
   transform: translateY(-50%);
-  background: #ff5f13;
+  background: #ff002f;
 }
 
 .single-team .team-caption h3 {
   color: #0e132a;
   font-weight: 700;
   font-size: 25px;
-  font-family: "Baloo Thambi 2",sans-serif;
+  font-family: "Raleway",sans-serif;
 }
 
 .single-team:hover .team-img img {
@@ -3617,7 +3618,7 @@ hr {
 }
 
 .latest-news-area .single-news .news-img .news-date {
-  background: #ff5f13;
+  background: #ff002f;
   padding: 15px 34px;
   display: inline-block;
   position: absolute;
@@ -3743,12 +3744,12 @@ hr {
 }
 
 .latest-news-area .single-news .news-caption a {
-  color: #ff5f13;
+  color: #ff002f;
   font-size: 16px;
 }
 
 .latest-news-area .single-news .news-caption a:hover {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .latest-news-area .single-news .news-caption a.d-btn {
@@ -3771,7 +3772,7 @@ hr {
 }
 
 .latest-news-area .single-news .news-caption a:hover::before {
-  background: #ff5f13;
+  background: #ff002f;
 }
 
 .news-img:hover .news-img img {
@@ -3809,7 +3810,7 @@ hr {
 }
 
 .project-area .project-caption .single-project .project-cap h4 a:hover,.about-area .project-caption .single-project .project-cap h4 a:hover,.contact-section .project-caption .single-project .project-cap h4 a:hover {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .project-area .project-caption .single-project .plus-btn,.about-area .project-caption .single-project .plus-btn,.contact-section .project-caption .single-project .plus-btn {
@@ -3858,7 +3859,7 @@ hr {
 
 .project-area .project-caption .single-project:hover .plus-btn i,.about-area .project-caption .single-project:hover .plus-btn i,.contact-section .project-caption .single-project:hover .plus-btn i {
   color: #fff;
-  background: #ff5f13;
+  background: #ff002f;
 }
 
 .project-area .properties__button,.about-area .properties__button,.contact-section .properties__button {
@@ -3914,7 +3915,7 @@ hr {
 }
 
 .project-area .nav-tabs .nav-item.show .nav-link,.project-area .nav-tabs .nav-link.active,.about-area .nav-tabs .nav-item.show .nav-link,.about-area .nav-tabs .nav-link.active,.contact-section .nav-tabs .nav-item.show .nav-link,.contact-section .nav-tabs .nav-link.active {
-  color: #ff5f13;
+  color: #ff002f;
   background: none;
 }
 
@@ -4048,7 +4049,7 @@ hr {
 
 .testimonial-area .testimonial-caption .testimonial-founder .founder-text {
   padding-left: 20px;
-  border-left: 2px solid #ff5f13;
+  border-left: 2px solid #ff002f;
 }
 
 .testimonial-area .testimonial-caption .testimonial-founder .founder-text span {
@@ -4141,7 +4142,7 @@ hr {
 
 .blog-area .single-blog .blog-caption .blog-cap-top span {
   color: #fff;
-  background: #ff5f13;
+  background: #ff002f;
   padding: 4px 13px;
   text-transform: uppercase;
   font-size: 14px;
@@ -4156,7 +4157,7 @@ hr {
 }
 
 .blog-area .single-blog .blog-caption .blog-cap-top ul li a {
-  color: #ff5f13;
+  color: #ff002f;
   font-size: 14px;
 }
 
@@ -4175,7 +4176,7 @@ hr {
 }
 
 .blog-area .single-blog .blog-caption .blog-cap-mid p a:hover {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .blog-area .single-blog .blog-caption .blog-cap-bottom {
@@ -4284,7 +4285,7 @@ hr {
   font-size: 35px;
   margin-bottom: 29px;
   font-weight: 500;
-  font-family: "Baloo Thambi 2",sans-serif;
+  font-family: "Raleway",sans-serif;
 }
 
 .footer-area .footer-tittle ul li {
@@ -4298,7 +4299,7 @@ hr {
 }
 
 .footer-area .footer-tittle ul li a:hover {
-  color: #ff5f13;
+  color: #ff002f;
   padding-left: 5px;
 }
 
@@ -4341,7 +4342,7 @@ hr {
 }
 
 .footer-area .info.error {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .footer-area .footer-social a {
@@ -4381,19 +4382,19 @@ hr {
 }
 
 .footer-area .footer-copy-right p i {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .footer-area .footer-copy-right p a {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .footer-area .footer-copy-right p a:hover {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .footer-social a:hover {
-  background: #ff5f13;
+  background: #ff002f;
 }
 
 .footer-social a:hover i {
@@ -4424,7 +4425,7 @@ hr {
   content: "";
   width: 75px;
   height: 3px;
-  background: #ff5f13;
+  background: #ff002f;
   left: 0;
   top: 52%;
   transform: translateY(-50%);
@@ -4444,7 +4445,7 @@ hr {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
-  font-family: "Baloo Thambi 2",sans-serif;
+  font-family: "Raleway",sans-serif;
 }
 
 .latest-blog-area .area-heading {
@@ -4458,7 +4459,7 @@ hr {
 }
 
 .blog_area a:hover,.blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #ff5f13 0%, #ff5f13 99%);
+  background: -webkit-linear-gradient(131deg, #ff002f 0%, #ff002f 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -4905,7 +4906,7 @@ hr {
 }
 
 .blog_details a:hover {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .blog_details h2 {
@@ -4962,7 +4963,7 @@ hr {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #ff5f13;
+  background-color: #ff002f;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -5044,7 +5045,7 @@ hr {
 }
 
 .blog_right_sidebar .search_widget .input-group button {
-  background: #ff5f13;
+  background: #ff002f;
   border-left: 0;
   border: 1px solid #f0e9ff;
   padding: 4px 15px;
@@ -5161,7 +5162,7 @@ hr {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #ff5f13;
+  background: #ff002f;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -5368,7 +5369,7 @@ hr {
 }
 
 .single-post-area .blog-author a:hover {
-  color: #ff5f13;
+  color: #ff002f;
 }
 
 .single-post-area .blog-author p {
@@ -5673,7 +5674,7 @@ hr {
 }
 
 .contact-info .media-body h3 a:hover {
-  color: #1f2b7b;
+  color: #055498;
 }
 
 .contact-info .media-body p {
@@ -5780,7 +5781,7 @@ hr {
 }
 
 .contact-section .btn_2:hover {
-  background-color: #1f2b7b;
+  background-color: #055498;
 }
 
 .breadcam_bg {
@@ -6050,7 +6051,7 @@ hr {
 
 .hero-overly::before {
   background-image: -moz-linear-gradient(0deg, rgba(2,8,52,0.74902) 0%, rgba(2,8,52,0.14902) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgba(2,8,52,0.74902) 0%, rgba(2,8,52,0.14902) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(1 47 141 / 0.5)  0%, rgba(2,8,52,0.14902) 100%);
   background-image: -ms-linear-gradient(0deg, rgba(2,8,52,0.74902) 0%, rgba(2,8,52,0.14902) 100%);
 }
 
@@ -6065,7 +6066,7 @@ hr {
 }
 
 b,sup,sub,u,del {
-  color: #1f2b7b;
+  color: #055498;
 }
 
 .typography h1,.typography h2,.typography h3,.typography h4,.typography h5,.typography h6 {
@@ -6172,25 +6173,25 @@ b,sup,sub,u,del {
 
 .genric-btn.primary {
   color: #fff;
-  background: #1f2b7b;
+  background: #055498;
   border: 1px solid transparent;
 }
 
 .genric-btn.primary:hover {
-  color: #1f2b7b;
-  border: 1px solid #1f2b7b;
+  color: #055498;
+  border: 1px solid #055498;
   background: #fff;
 }
 
 .genric-btn.primary-border {
-  color: #1f2b7b;
-  border: 1px solid #1f2b7b;
+  color: #055498;
+  border: 1px solid #055498;
   background: #fff;
 }
 
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #1f2b7b;
+  background: #055498;
   border: 1px solid transparent;
 }
 
@@ -6326,7 +6327,7 @@ b,sup,sub,u,del {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #1f2b7b;
+  border-left: 2px solid #055498;
 }
 
 .progress-table-wrap {
@@ -6450,7 +6451,7 @@ b,sup,sub,u,del {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #1f2b7b;
+  border: 3px solid #055498;
   background: #fff;
   top: 4px;
   left: 0;
@@ -6463,7 +6464,7 @@ b,sup,sub,u,del {
 
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #1f2b7b;
+  color: #055498;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -6476,7 +6477,7 @@ b,sup,sub,u,del {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #1f2b7b;
+  color: #055498;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -6489,7 +6490,7 @@ b,sup,sub,u,del {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #1f2b7b;
+  color: #055498;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -6561,7 +6562,7 @@ b,sup,sub,u,del {
 
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #1f2b7b;
+  border: 1px solid #055498;
 }
 
 .single-input-accent {
@@ -6622,7 +6623,7 @@ b,sup,sub,u,del {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #1f2b7b;
+  background: #055498;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -6705,7 +6706,7 @@ b,sup,sub,u,del {
 }
 
 .primary-switch input:checked+label:before {
-  background: #1f2b7b;
+  background: #055498;
 }
 
 .confirm-switch {
@@ -7054,12 +7055,12 @@ b,sup,sub,u,del {
 }
 
 .default-select .nice-select .list .option.selected {
-  color: #1f2b7b;
+  color: #055498;
   background: transparent;
 }
 
 .default-select .nice-select .list .option:hover {
-  color: #1f2b7b;
+  color: #055498;
   background: transparent;
 }
 
@@ -7109,12 +7110,12 @@ b,sup,sub,u,del {
 }
 
 .form-select .nice-select .list .option.selected {
-  color: #1f2b7b;
+  color: #055498;
   background: transparent;
 }
 
 .form-select .nice-select .list .option:hover {
-  color: #1f2b7b;
+  color: #055498;
   background: transparent;
 }
 
