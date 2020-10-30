@@ -2025,6 +2025,10 @@ hr {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+.section-padding22 {
+  padding-top: 0px;
+  padding-bottom: 200px;
+}
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .section-padding2 {
@@ -2249,7 +2253,7 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .section-tittle span.back-text {
-    font-size: 127px;
+    font-size: 80px;
   }
 }
 
@@ -2273,19 +2277,19 @@ hr {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .section-tittle.section-tittle2 span.back-text {
-    font-size: 119px;
+    font-size: 100px;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
   .section-tittle.section-tittle2 span.back-text {
-    font-size: 119px;
+    font-size: 100px;
   }
 }
 
 @media only screen and (min-width: 1441px) and (max-width: 1800px) {
   .section-tittle.section-tittle2 span.back-text {
-    font-size: 112px;
+    font-size: 100px;
   }
 }
 
@@ -2305,14 +2309,15 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-tittle.section-tittle2 span.back-text {
-    font-size: 117px;
+    font-size: 100px;
+    margin-top : 15px;
     transform: translateY(-128%);
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .section-tittle.section-tittle2 span.back-text {
-    font-size: 117px;
+    font-size: 100px;
     transform: translateY(-118%);
   }
 }
@@ -2383,14 +2388,14 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-tittle.section-tittle4 span.back-text {
-    font-size: 117px;
+    font-size: 100px;
     transform: translateY(-118%);
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .section-tittle.section-tittle4 span.back-text {
-    font-size: 117px;
+    font-size: 90px;
     transform: translateY(-113%);
   }
 }
