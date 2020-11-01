@@ -2187,6 +2187,7 @@ hr {
 
 .section-tittle {
   position: relative;
+    margin-top: 30px;
 }
 
 @media (max-width: 575px) {
@@ -2309,9 +2310,18 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-tittle.section-tittle2 span.back-text {
-    font-size: 100px;
-    margin-top : 15px;
-    transform: translateY(-128%);
+
+    font-size: 110px;
+  font-weight: 800;
+  text-transform: uppercase;
+   -webkit-text-stroke: 2px rgba(255,0,47,.4);
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  line-height: 1;
+  position: absolute;
+  transform: translateY(-114%);
+  right: 0;
+  left: 12px;
   }
 }
 
@@ -7152,4 +7162,25 @@ b,sup,sub,u,del {
 
 .switch-wrap {
   margin-bottom: 10px;
+}
+hr {border-top: 3px solid #000; width:100%; margin-top :20px;}
+
+a {color: #000;}
+
+a:link{text-decoration:none;}
+
+#contact2{
+    letter-spacing:3px;
+}
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+
+}
+.maps{
+  margin-bottom: 150px;
+}
+.sdt{
+  text-align: right;
 }
