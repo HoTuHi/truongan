@@ -7184,3 +7184,10 @@ a:link{text-decoration:none;}
 .sdt{
   text-align: right;
 }
+.phone-app{
+  font-weight :500;
+  color : #1696e7;
+}
+.phone-app:hover{
+  color : blue;
+}
