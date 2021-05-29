@@ -6065,9 +6065,7 @@ hr {
 }
 
 .hero-overly::before {
-  background-image: -moz-linear-gradient(0deg, rgba(2,8,52,0.74902) 0%, rgba(2,8,52,0.14902) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(1 47 141 / 0.5)  0%, rgba(2,8,52,0.14902) 100%);
-  background-image: -ms-linear-gradient(0deg, rgba(2,8,52,0.74902) 0%, rgba(2,8,52,0.14902) 100%);
+
 }
 
 .sample-text-area {
